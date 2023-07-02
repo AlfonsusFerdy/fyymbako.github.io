@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+body{
+    background-color: #dee0e3;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.heading h1{
+    font-size: 50px;
+    color: #36455c;
+    margin-bottom: 10px;
+}
+
+.heading p{
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 50px;
+}
+
+.about-us{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin:auto;
+}
+
+.about-us img{
+    flex:0 35%;
+    max-width: 35%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.content{
+    padding: 35px;
+}
+
+.content h2{
+    color: brown;
+    font-size: 24px;
+    margin: 15px 0px;
+}
+.content p{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0px;
+}
+
+.instagram{
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    box-shadow: #666;
+}
+
+.email{
+    width: 75px;
+    height: 80x;
+    padding: 10px;
+}
+
+.individu{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin:auto;
+}
+
+.individu-diva img{
+    flex: 0 35%;
+    max-width: 35%;
+    height: 10%;
+    border-radius: 20px;
+}
+
+.individu img{
+    flex:0 35%;
+    max-width: 35%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.content-individu{
+    padding: 35px;
+}
+
+.content-individu h2{
+    color: brown;
+    font-size: 24px;
+    margin: 15px 0px;
+}
+
+.content-individu p{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar{
+    color: white;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    text-decoration: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+

@@ -1,0 +1,45 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+input {
+  font-size: 70%;
+  margin: 0;
+  font-weight: medium;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
+#container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1444px;
+    height: 2125px;
+    transform-origin: 0 0;
+    transform: scale(1);
+    display: none;
+    overflow: hidden;
+    }
